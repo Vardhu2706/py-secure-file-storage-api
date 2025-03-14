@@ -1,2 +1,35 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment folder
+venv/
+
+# Ignore .env files
 .env
-/venv/
+
+# Ignore Alembic migration files (optional)
+alembic/versions/
+
+# Ignore IDE files (optional, if using VSCode)
+.vscode/
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore Windows specific files
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore coverage reports (if running tests)
+*.coverage
+*.coverage.*
+coverage/
+
+# Ignore test and temporary files
+*.swp
+*.bak
+*.tmp
